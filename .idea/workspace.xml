@@ -68,15 +68,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="env.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/feature/support/env.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="94" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="create_article.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/create_article.haml">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,25 +116,34 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="11" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="30" selection-end="98" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile.lock" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testing/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="21" selection-start="378" selection-end="378" vertical-scroll-proportion="0.12998267">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="142" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="11" selection-start="143" selection-end="143" vertical-scroll-proportion="0.18197574">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_steps.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/feature/step_definitions/my_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="34" selection-start="1647" selection-end="1671" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="66" selection-end="134" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,14 +159,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/app.rb" />
-        <option value="$PROJECT_DIR$/public/helpcentre.js" />
         <option value="$PROJECT_DIR$/views/home.haml" />
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/views/articles_for_product.haml" />
         <option value="$PROJECT_DIR$/public/css/helpcentre.css" />
         <option value="$PROJECT_DIR$/public/js/helpcentre.js" />
-        <option value="$PROJECT_DIR$/testing/Gemfile" />
         <option value="$PROJECT_DIR$/testing/feature/support/persona.rb" />
         <option value="$PROJECT_DIR$/testing/feature/support/env.rb" />
         <option value="$PROJECT_DIR$/testing/feature/editor.feature" />
@@ -175,6 +172,9 @@
         <option value="$PROJECT_DIR$/lib/helpcentre.rb" />
         <option value="$PROJECT_DIR$/views/create_article.haml" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/testing/Gemfile" />
+        <option value="$PROJECT_DIR$/Gemfile.lock" />
+        <option value="$PROJECT_DIR$/testing/Gemfile.lock" />
       </list>
     </option>
   </component>
@@ -899,16 +899,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/helpcentre.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/helpcentre.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="14" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" />
@@ -987,16 +977,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/Gemfile">
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="11" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+        <state line="22" column="142" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="143" selection-end="143" vertical-scroll-proportion="0.18197574">
+        <state line="4" column="0" selection-start="66" selection-end="134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="30" selection-end="98" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="378" selection-end="378" vertical-scroll-proportion="0.12998267">
           <folding />
         </state>
       </provider>

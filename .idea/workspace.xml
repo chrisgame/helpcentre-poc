@@ -95,15 +95,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/feature/editor.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="45" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="helpcentre.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/helpcentre.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -122,10 +113,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="378" selection-end="378" vertical-scroll-proportion="0.12998267">
+            <state line="28" column="54" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.ru" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.ru">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="26" selection-start="185" selection-end="185" vertical-scroll-proportion="0.23183925">
               <folding />
             </state>
           </provider>
@@ -160,7 +160,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/views/home.haml" />
-        <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/views/articles_for_product.haml" />
         <option value="$PROJECT_DIR$/public/css/helpcentre.css" />
         <option value="$PROJECT_DIR$/public/js/helpcentre.js" />
@@ -175,6 +174,7 @@
         <option value="$PROJECT_DIR$/testing/Gemfile" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/testing/Gemfile.lock" />
+        <option value="$PROJECT_DIR$/config.ru" />
       </list>
     </option>
   </component>
@@ -812,9 +812,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24879615" sideWeight="0.60258967" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39741036" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32768923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24879615" sideWeight="0.67231077" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39741036" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32768923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -899,11 +899,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@helpcentre-poc/gems/cucumber-1.0.2/lib/cucumber/runtime.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="0" selection-start="2705" selection-end="2705" vertical-scroll-proportion="0.0" />
@@ -1000,7 +995,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="378" selection-end="378" vertical-scroll-proportion="0.12998267">
+        <state line="28" column="54" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="185" selection-end="185" vertical-scroll-proportion="0.23183925">
           <folding />
         </state>
       </provider>

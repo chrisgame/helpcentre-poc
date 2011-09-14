@@ -1,0 +1,12 @@
+%html
+  %head
+    %script{:type => 'text/javascript', :src => '/js/helpcentre.js'}
+    %script{:type => 'text/javascript', :src => '/js/jquery-1.4.4.min.js'}
+%body
+  %title Home
+  %select{:name => 'productName'}
+    %option F
+
+  %input{:name => 'find', :type => 'button', :value => 'Find', :onClick => 'findProduct("/F")'}
+
+  #article

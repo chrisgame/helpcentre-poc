@@ -1,0 +1,14 @@
+%html
+  %head
+    %script{:type => 'text/javascript', :src => '/js/helpcentre.js'}
+    %script{:type => 'text/javascript', :src => '/js/jquery-1.4.4.min.js'}
+    %link{:rel => 'stylesheet', :href => '/css/helpcentre.css', :type => 'text/css', :media => 'screen'}
+%body
+  %title Create Article
+  %input{:name => 'productName', :type => 'text'}
+  %input{:name => 'article', :type => 'text'}
+  #otherProductAssociations
+  -articles.each do |value|
+    %input{:name => value, :type => 'radio'}
+  .error.hidden
+  %input{:name => 'add', :type => 'button', :value => 'Add', :onCLick => 'addArticle()'}

@@ -5,8 +5,6 @@ require 'haml'
 require './lib/store.rb'
 require 'uuid'
 
-puts 'in helpcentre.rb'
-
 class Helpcentre < Sinatra::Base
 
   get '/' do

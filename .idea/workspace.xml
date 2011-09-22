@@ -77,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.ru" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.ru">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+            <state line="17" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.3935185">
               <folding />
             </state>
           </provider>
@@ -122,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.feature" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="editor.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/feature/editor.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.5555556">
+            <state line="32" column="125" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,7 +163,6 @@
         <option value="$PROJECT_DIR$/run_app_in_debug.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/testing/Gemfile" />
-        <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/testing/feature/google.feature" />
         <option value="$PROJECT_DIR$/scratch.html" />
         <option value="$PROJECT_DIR$/public/css/helpcentre.css" />
@@ -175,6 +174,7 @@
         <option value="$PROJECT_DIR$/views/articles_for_product.haml" />
         <option value="$PROJECT_DIR$/testing/feature/editor.feature" />
         <option value="$PROJECT_DIR$/testing/feature/step_definitions/my_steps.rb" />
+        <option value="$PROJECT_DIR$/config.ru" />
       </list>
     </option>
   </component>
@@ -901,11 +901,6 @@
         <state line="4" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/store.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" />
@@ -942,7 +937,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/feature/editor.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.5555556">
+        <state line="32" column="125" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.3935185">
           <folding />
         </state>
       </provider>

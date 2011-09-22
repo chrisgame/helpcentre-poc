@@ -8,7 +8,7 @@ require 'uuid'
 class Helpcentre < Sinatra::Base
 
   get '/' do
-    haml :home
+    haml :home, {}, :articles => STORE.product_list
   end
 
   get '/article/create' do

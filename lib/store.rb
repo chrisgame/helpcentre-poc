@@ -8,7 +8,11 @@ class Store
   end
 
   def load product_name
-    @store.each{|article| article.product == product_name}
+    @store.each_value.collect do  |article|
+      if (article[:product] == product_name) then
+        article[:text]
+      end
+    end
   end
 
   def clear
@@ -16,6 +20,6 @@ class Store
   end
 
   def product_list
-    @store.collect{|article| article.product}
+    @store.each_value.collect {|article| article[:product]}
   end
 end

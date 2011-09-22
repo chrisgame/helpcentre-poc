@@ -12,8 +12,8 @@ Helpcentre::Persona.all.each do |persona|
   end
 
   When /^#{persona.first_name} creates an article associated with the product '(.*)'$/ do |product|
-    persona.browser.text_field(:name, 'productName').set 'product'
-    persona.store_article_for 'F', 'This is article text for product F. It is unique because of this text '+UUID.generate
+    persona.browser.text_field(:name, 'productName').set product
+    persona.store_article_for product, "This is article text for #{product}. It is unique because of this text "+UUID.generate
     persona.browser.text_field(:name, 'article').set persona.product_article_for(product)
     persona.browser.button(:name, 'add').click
   end
@@ -34,7 +34,15 @@ Helpcentre::Persona.all.each do |persona|
     persona.browser.text.should =~ /#{message_text}/
   end
 
-  Then /^#{persona.first_name} should be able to associate it with product '(.*)'$/ do |product|
-    persona.browser.radio(:id, 'otherProductAssociations').select product
+  Then /^#{persona.first_name} should be able to associate the article for product '(.*)' with product '(.*)'$/ do |existing_product_article, new_product|
+    persona.browser.refresh
+    begin
+      persona.browser.checkbox(:value, product).set(true)
+    rescue
+      persona.browser.text_field(:name, 'productName').set new_product
+      persona.store_article_for new_product, persona.product_article_for(existing_product_article)
+      persona.browser.text_field(:name, 'article').set persona.product_article_for(existing_product_article)
+    end
+    persona.browser.button(:name, 'add').click
   end
 end

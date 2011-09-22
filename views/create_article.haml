@@ -9,6 +9,7 @@
   %input{:name => 'article', :type => 'text'}
   #otherProductAssociations
   -articles.each do |value|
-    %input{:name => value, :type => 'radio'}
+    %input{:id => "product_#{value}", :value => value, :type => 'checkbox'}
+      =value
   .error.hidden
-  %input{:name => 'add', :type => 'button', :value => 'Add', :onCLick => 'addArticle()'}
+  %input{:name => 'add', :type => 'button', :value => 'Add', :onClick => 'addArticle()'}

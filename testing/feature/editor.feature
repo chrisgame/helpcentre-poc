@@ -20,9 +20,9 @@ Scenario: All articles must be related to at least one product or problem
 Scenario: Articles can be related to many products
   Given Mo is on the Create Article page
   When Mo creates an article associated with the product 'F'
-  Then Mo should be able to associate it with product 'G'
-  Then Joe should see the article on the site under product 'F'
-  Then Joe should see the article on the site under product 'G'
+  Then Mo should be able to associate the article for product 'F' with product 'G'
+  Then Joe should see Mo's article on the site under product 'F'
+  Then Joe should see Mo's article on the site under product 'G'
 
 #Scenario: Articles can be related to many problems and products
 #  Given Mo is on the Create Article page

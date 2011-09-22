@@ -5,8 +5,10 @@
 %body
   %title Home
   %select{:name => 'productName'}
-    %option F
+    -articles.each do |value|
+      %option
+        =value
 
-  %input{:name => 'find', :type => 'button', :value => 'Find', :onClick => 'findProduct("/F")'}
+  %input{:name => 'find', :type => 'button', :value => 'Find', :onClick => 'findProduct($("[name=productName]").val())'}
 
   #article

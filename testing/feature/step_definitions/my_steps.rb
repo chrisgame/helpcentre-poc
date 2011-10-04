@@ -1,19 +1,27 @@
 require 'rubygems'
 require 'uuid'
+require 'nokogiri'
 
 Helpcentre::Persona.all.each do |persona|
 
   Given /^#{persona.first_name} is on the (.*) page$/ do |page_name|
     case page_name
+      when 'Home'
+        persona.browser.goto 'localhost:4567/'
+        persona.browser.title.should == page_name
       when 'Create Article'
         persona.browser.goto 'localhost:4567/article/create'
+        persona.browser.title.should == page_name
+      else
+        persona.browser.goto "localhost:4567/#{page_name}"
+        persona.browser.title.should == "Articles for #{page_name}"
     end
-    persona.browser.title.should == page_name
+
   end
 
   When /^#{persona.first_name} creates an article associated with the product '(.*)'$/ do |product|
     persona.browser.text_field(:name, 'productName').set product
-    persona.store_article_for product, "This is article text for #{product}. It is unique because of this text "+UUID.generate
+    persona.store_article_for product, "This article text is unique because of this text "+UUID.generate
     persona.browser.text_field(:name, 'article').set persona.product_article_for(product)
     persona.browser.button(:name, 'add').click
   end
@@ -22,7 +30,11 @@ Helpcentre::Persona.all.each do |persona|
     persona.browser.goto 'localhost:4567/'
     persona.browser.select_list(:name, 'productName').select product
     persona.browser.button(:name, 'find').click
-    persona.browser.element(:id, 'article').text.should == mo.product_article_for(product)
+    persona.browser.element(:id, 'articleList').text.should == mo.product_article_for(product)
+  end
+
+  Then /^#{persona.first_name} should see Mo's article for product '(.*)' on the page$/ do |product|
+    persona.browser.element(:id, 'articleList').text.should == mo.product_article_for(product)
   end
 
   When /^#{persona.first_name} creates an article that is not associated with anything$/ do
@@ -45,4 +57,29 @@ Helpcentre::Persona.all.each do |persona|
     end
     persona.browser.button(:name, 'add').click
   end
+
+  Then /^#{persona.first_name} should see an entry for each of the articles created in the sitemap$/ do
+    persona.product_articles.each_key do |product_name|
+      sitemap_entry_for(product_name).should_not == false
+    end
+  end
+
+  Then /^#{persona.first_name} should see product '(.*)' appear once in the dropdown$/ do  |product_name|
+    options = persona.browser.element(:name, 'productName').options.collect{|value| value.text}
+    options.size.should == 1
+    options[0].should == product_name
+  end
+end
+
+
+def sitemap_entry_for product_name
+    uri = URI.parse 'http://localhost:4567'
+    http = Net::HTTP.new(uri.host, uri.port)
+
+    request = Net::HTTP::Get.new('/sitemap.xml')
+    response = http.request(request).body
+    puts response
+    doc = Nokogiri::XML(response)
+
+    doc.xpath("//urlset/url/loc/text()= 'http://cold-journey-9363.heroku.com/#{product_name}'")
 end

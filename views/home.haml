@@ -2,8 +2,10 @@
   %head
     %script{:type => 'text/javascript', :src => '/js/helpcentre.js'}
     %script{:type => 'text/javascript', :src => '/js/jquery-1.4.4.min.js'}
+    %link{:rel => 'stylesheet', :href => '/css/helpcentre.css', :type => 'text/css', :media => 'screen'}
 %body
   %title Home
+  %label Which product would you like to know about ?
   %select{:name => 'productName'}
     -articles.each do |value|
       %option
@@ -11,4 +13,5 @@
 
   %input{:name => 'find', :type => 'button', :value => 'Find', :onClick => 'findProduct($("[name=productName]").val())'}
 
-  #article
+  #articleList
+    %ul

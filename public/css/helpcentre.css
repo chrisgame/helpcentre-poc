@@ -5,3 +5,19 @@
 .hidden{
     display: none;
 }
+
+#articleList li{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #adff2f;
+    list-style-type: none;
+}
+
+.editor{
+    background-color: #dcdcdc;
+}
+
+#otherProductAssociations li{
+    list-style-type: none;
+}
+

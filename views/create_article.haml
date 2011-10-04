@@ -3,13 +3,19 @@
     %script{:type => 'text/javascript', :src => '/js/helpcentre.js'}
     %script{:type => 'text/javascript', :src => '/js/jquery-1.4.4.min.js'}
     %link{:rel => 'stylesheet', :href => '/css/helpcentre.css', :type => 'text/css', :media => 'screen'}
-%body
+%body.editor
   %title Create Article
+  %label Product Name
   %input{:name => 'productName', :type => 'text'}
+  %label Article Text
   %input{:name => 'article', :type => 'text'}
   #otherProductAssociations
-  -articles.each do |value|
-    %input{:id => "product_#{value}", :value => value, :type => 'checkbox'}
-      =value
+    Existing product names
+    %ul
+    -articles.each do |value|
+      %li
+        %input{:id => "product_#{value}", :value => value, :type => 'checkbox'}
+        %label{:for => "product_#{value}"}
+          =value
   .error.hidden
   %input{:name => 'add', :type => 'button', :value => 'Add', :onClick => 'addArticle()'}

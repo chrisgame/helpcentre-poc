@@ -1,6 +1,16 @@
-function findProduct(pathToArticle){
-    $.get(pathToArticle, function(articleContents){
-      $('#article').html(articleContents)
+function findProduct(productName){
+    $.getJSON('/'+productName+'/json', function(data){
+      var items = []
+
+      $.each(data, function(key, value){
+        items.push('<li id="' + key +'">' + value.text + '</li>');
+      });
+
+      $('#articleList ul').replaceWith(
+        $('<ul/>', {
+          html: items.join('')
+        })
+      );
     })
 }
 
@@ -15,7 +25,7 @@ function addArticle(){
     })
 
     if ($("[name=productName]").val() == '' && noneChecked){
-        $('.error').html('Articles must be associated with at least one product or problem').removeClass('hidden');
+        $('.error').html('Articles must be associated with at least one product or topic').removeClass('hidden');
     }
     else{
         if (productName == null){

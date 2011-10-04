@@ -36,6 +36,10 @@ module Helpcentre
       @product_articles[product] = text
     end
 
+    def product_articles
+      @product_articles
+    end
+
     def product_article_for product
        @product_articles[product]
     end

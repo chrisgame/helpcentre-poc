@@ -8,16 +8,17 @@
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.16, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.3.2, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.3.2, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="launchy (v2.0.5, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v0.9.4, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rest-client (v1.6.7, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="launchy (v2.0.5, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="macaddr (v1.4.0, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.0.18, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rest-client (v1.6.7, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="heroku (v2.7.0, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.0.18, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml (v3.1.2, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uuid (v2.3.4, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="systemu (v2.2.0, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sinatra (v1.2.6, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.0, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.2.6, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="term-ansicolor (v1.0.6, RVM: ruby-1.9.2-p180 [helpcentre-poc]) [gem]" level="application" />
   </component>

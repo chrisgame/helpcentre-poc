@@ -7,12 +7,20 @@ class Store
     @store[id] = {:product => product_name, :text => text}
   end
 
-  def load product_name
-    @store.each_value.collect do  |article|
+  def load_all
+    @store
+  end
+
+  def load_all_for value
+    @store.select{|k,v| v[:product] == value}
+  end
+
+  def load_article_text product_name
+    @store.each_value.collect do |article|
       if (article[:product] == product_name) then
         article[:text]
       end
-    end
+    end.compact
   end
 
   def clear
@@ -20,6 +28,6 @@ class Store
   end
 
   def product_list
-    @store.each_value.collect {|article| article[:product]}
+    @store.each_value.collect{|article| article[:product]}.uniq
   end
 end

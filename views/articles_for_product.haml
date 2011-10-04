@@ -2,8 +2,14 @@
   %head
     %script{:type => 'text/javascript', :src => '/js/helpcentre.js'}
     %script{:type => 'text/javascript', :src => '/js/jquery-1.4.4.min.js'}
+    %link{:rel => 'stylesheet', :href => '/css/helpcentre.css', :type => 'text/css', :media => 'screen'}
 %body
-  %title Articles for
-  -articles.each do |value|
-    %div
-      =value
+  %title
+    ="Articles for #{product_name}"
+  %label
+    ="All the articles for #{product_name}"
+  #articleList
+    %ul
+    -articles.each do |value|
+      %li
+        =value

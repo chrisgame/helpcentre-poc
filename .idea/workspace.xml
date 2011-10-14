@@ -113,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.ru" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.ru">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="16" selection-start="261" selection-end="261" vertical-scroll-proportion="0.3935185">
+            <state line="17" column="16" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,10 +140,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/home.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="119" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0">
+            <state line="5" column="48" selection-start="311" selection-end="311" vertical-scroll-proportion="0.11574074">
               <folding />
             </state>
           </provider>
@@ -173,8 +173,8 @@
         <option value="$PROJECT_DIR$/testing/feature/support/persona.rb" />
         <option value="$PROJECT_DIR$/views/articles_for_product.haml" />
         <option value="$PROJECT_DIR$/views/create_article.haml" />
-        <option value="$PROJECT_DIR$/views/home.haml" />
         <option value="$PROJECT_DIR$/config.ru" />
+        <option value="$PROJECT_DIR$/views/home.haml" />
       </list>
     </option>
   </component>
@@ -1112,13 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@helpcentre-poc/gems/cucumber-1.0.2/lib/cucumber/cli/main.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/feature/editor.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="30" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0">
@@ -1154,13 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="119" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/feature/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="9" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
@@ -1170,7 +1156,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="261" selection-end="261" vertical-scroll-proportion="0.3935185">
+        <state line="17" column="16" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@helpcentre-poc/gems/cucumber-1.0.2/lib/cucumber/cli/main.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="48" selection-start="311" selection-end="311" vertical-scroll-proportion="0.11574074">
           <folding />
         </state>
       </provider>

@@ -95,24 +95,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="instance_exec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@helpcentre-poc/gems/cucumber-1.0.2/lib/cucumber/core_ext/instance_exec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="0" selection-start="2241" selection-end="2241" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rb_step_definition.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@helpcentre-poc/gems/cucumber-1.0.2/lib/cucumber/rb_support/rb_step_definition.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="editor.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/feature/editor.feature">
           <provider selected="true" editor-type-id="text-editor">
@@ -140,10 +122,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="store.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/store.rb">
+      <file leaf-file-name="articles_for_product.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/articles_for_product.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="477" selection-end="541" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="263" selection-end="324" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_article.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/create_article.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="4" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/home.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="7" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,7 +160,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/views/create_article.haml" />
         <option value="$PROJECT_DIR$/views/article.haml" />
         <option value="$PROJECT_DIR$/testing/feature/google.feature" />
         <option value="$PROJECT_DIR$/views/sitemap.builder" />
@@ -169,11 +168,12 @@
         <option value="$PROJECT_DIR$/lib/store.rb" />
         <option value="$PROJECT_DIR$/public/css/helpcentre.css" />
         <option value="$PROJECT_DIR$/views/home.haml" />
-        <option value="$PROJECT_DIR$/views/articles_for_product.haml" />
         <option value="$PROJECT_DIR$/public/js/helpcentre.js" />
         <option value="$PROJECT_DIR$/testing/feature/step_definitions/my_steps.rb" />
         <option value="$PROJECT_DIR$/testing/feature/support/env.rb" />
         <option value="$PROJECT_DIR$/testing/feature/support/persona.rb" />
+        <option value="$PROJECT_DIR$/views/articles_for_product.haml" />
+        <option value="$PROJECT_DIR$/views/create_article.haml" />
         <option value="$PROJECT_DIR$/config.ru" />
       </list>
     </option>
@@ -1063,20 +1063,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/article.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="7" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/helpcentre.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="56" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
@@ -1087,13 +1073,6 @@
     <entry file="file://$PROJECT_DIR$/public/css/helpcentre.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="21" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/articles_for_product.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="73" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1164,6 +1143,27 @@
     <entry file="file://$PROJECT_DIR$/testing/feature/support/persona.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="31" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="7" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/articles_for_product.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="263" selection-end="324" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/create_article.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

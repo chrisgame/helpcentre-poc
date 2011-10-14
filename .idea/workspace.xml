@@ -86,15 +86,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="step_invocation.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@helpcentre-poc/gems/cucumber-1.0.2/lib/cucumber/ast/step_invocation.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="editor.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/feature/editor.feature">
           <provider selected="true" editor-type-id="text-editor">
@@ -140,10 +131,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/home.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="103" selection-start="366" selection-end="366" vertical-scroll-proportion="0.11574074">
+            <state line="5" column="103" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sitemap.builder" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/sitemap.builder">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="65" selection-start="103" selection-end="103" vertical-scroll-proportion="0.023148147">
               <folding />
             </state>
           </provider>
@@ -162,7 +162,6 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/views/article.haml" />
         <option value="$PROJECT_DIR$/testing/feature/google.feature" />
-        <option value="$PROJECT_DIR$/views/sitemap.builder" />
         <option value="$PROJECT_DIR$/testing/feature/editor.feature" />
         <option value="$PROJECT_DIR$/lib/helpcentre.rb" />
         <option value="$PROJECT_DIR$/lib/store.rb" />
@@ -175,6 +174,7 @@
         <option value="$PROJECT_DIR$/views/create_article.haml" />
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/views/home.haml" />
+        <option value="$PROJECT_DIR$/views/sitemap.builder" />
       </list>
     </option>
   </component>
@@ -1063,13 +1063,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/helpcentre.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="56" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/helpcentre.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="21" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
@@ -1170,7 +1163,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/home.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="103" selection-start="366" selection-end="366" vertical-scroll-proportion="0.11574074">
+        <state line="5" column="103" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/sitemap.builder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="65" selection-start="103" selection-end="103" vertical-scroll-proportion="0.023148147">
           <folding />
         </state>
       </provider>

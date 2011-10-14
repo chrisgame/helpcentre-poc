@@ -113,15 +113,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="google.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/feature/google.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="40" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="editor.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/feature/editor.feature">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,10 +122,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="persona.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="persona.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/feature/support/persona.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="9" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.7191358">
+            <state line="64" column="31" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.ru" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.ru">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="258" selection-end="258" vertical-scroll-proportion="0.3935185">
               <folding />
             </state>
           </provider>
@@ -160,7 +160,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/views/create_article.haml" />
         <option value="$PROJECT_DIR$/views/article.haml" />
         <option value="$PROJECT_DIR$/testing/feature/google.feature" />
@@ -175,6 +174,7 @@
         <option value="$PROJECT_DIR$/testing/feature/step_definitions/my_steps.rb" />
         <option value="$PROJECT_DIR$/testing/feature/support/env.rb" />
         <option value="$PROJECT_DIR$/testing/feature/support/persona.rb" />
+        <option value="$PROJECT_DIR$/config.ru" />
       </list>
     </option>
   </component>
@@ -1063,13 +1063,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/create_article.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/article.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="6" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
@@ -1170,7 +1163,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/feature/support/persona.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="9" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.7191358">
+        <state line="64" column="31" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="258" selection-end="258" vertical-scroll-proportion="0.3935185">
           <folding />
         </state>
       </provider>

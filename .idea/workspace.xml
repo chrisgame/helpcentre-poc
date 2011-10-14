@@ -116,7 +116,7 @@
       <file leaf-file-name="config.ru" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.ru">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="258" selection-end="258" vertical-scroll-proportion="0.3935185">
+            <state line="17" column="16" selection-start="261" selection-end="261" vertical-scroll-proportion="0.3935185">
               <folding />
             </state>
           </provider>
@@ -143,7 +143,7 @@
       <file leaf-file-name="home.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/home.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="7" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
+            <state line="17" column="119" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,13 +167,13 @@
         <option value="$PROJECT_DIR$/lib/helpcentre.rb" />
         <option value="$PROJECT_DIR$/lib/store.rb" />
         <option value="$PROJECT_DIR$/public/css/helpcentre.css" />
-        <option value="$PROJECT_DIR$/views/home.haml" />
         <option value="$PROJECT_DIR$/public/js/helpcentre.js" />
         <option value="$PROJECT_DIR$/testing/feature/step_definitions/my_steps.rb" />
         <option value="$PROJECT_DIR$/testing/feature/support/env.rb" />
         <option value="$PROJECT_DIR$/testing/feature/support/persona.rb" />
         <option value="$PROJECT_DIR$/views/articles_for_product.haml" />
         <option value="$PROJECT_DIR$/views/create_article.haml" />
+        <option value="$PROJECT_DIR$/views/home.haml" />
         <option value="$PROJECT_DIR$/config.ru" />
       </list>
     </option>
@@ -1133,30 +1133,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/feature/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="9" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/feature/support/persona.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="31" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="7" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/articles_for_product.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="263" selection-end="324" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1168,9 +1147,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/articles_for_product.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="263" selection-end="324" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="119" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/feature/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="9" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="258" selection-end="258" vertical-scroll-proportion="0.3935185">
+        <state line="17" column="16" selection-start="261" selection-end="261" vertical-scroll-proportion="0.3935185">
           <folding />
         </state>
       </provider>

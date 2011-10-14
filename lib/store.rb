@@ -11,8 +11,8 @@ class Store
     @store
   end
 
-  def load_all_for value
-    @store.select{|k,v| v[:product] == value}
+  def load_all_for_product product_name
+    @store.select{|k,v| v[:product] == product_name}
   end
 
   def load_article_text product_name
@@ -23,11 +23,19 @@ class Store
     end.compact
   end
 
+  def load_article uuid
+    @store.select{|k,v| k == uuid}
+  end
+
   def clear
     @store = Hash.new
   end
 
   def product_list
     @store.each_value.collect{|article| article[:product]}.uniq
+  end
+
+  def relative_article_urls
+    @store.each.collect{|uuid, article| "#{article[:product]}/#{uuid}"}.uniq
   end
 end

@@ -9,8 +9,12 @@ require 'json'
 
 class Helpcentre < Sinatra::Base
 
+  get '/clear/store' do
+    STORE.clear
+  end
+
   get '/sitemap.xml' do
-    builder :sitemap, {}, :articles => STORE.product_list
+    builder :sitemap, {}, :urls => STORE.relative_article_urls
   end
 
   get '/' do
@@ -25,6 +29,7 @@ class Helpcentre < Sinatra::Base
     article_id = UUID.generate
 
     STORE.save article_id, params['productName'], params['text']
+
     article_id
   end
 
@@ -34,11 +39,11 @@ class Helpcentre < Sinatra::Base
 
   get '/:product_name/json' do |product_name|
     content_type :json
-    STORE.load_all_for(product_name).to_json
+    STORE.load_all_for_product(product_name).to_json
   end
 
-  get '/clear/store' do
-    STORE.clear
+  get '/:product_name/:uuid' do |product_name, uuid|
+    haml :article, {}, :article => STORE.load_article(uuid), :product_name => product_name
   end
 
 end

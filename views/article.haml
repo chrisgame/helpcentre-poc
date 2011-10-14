@@ -5,11 +5,9 @@
     %link{:rel => 'stylesheet', :href => '/css/helpcentre.css', :type => 'text/css', :media => 'screen'}
 %body
   %title
-    ="Articles for #{product_name}"
+    ="#{product_name}"
   %label
-    ="All the articles for #{product_name}"
-  #articleListContainer
-    %ul#articleList
-      -articles.each do |value|
-        %li
-          =value
+    ="#{product_name}"
+  #articleText
+    -article.each_value do |value|
+      =value[:text]

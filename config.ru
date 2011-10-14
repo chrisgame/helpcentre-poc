@@ -14,5 +14,5 @@ class Helpcentre < Sinatra::Base
 
 end
 
-run Helpcentre
-#Helpcentre.run!
+#run Helpcentre
+Helpcentre.run!

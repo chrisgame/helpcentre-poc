@@ -32,21 +32,25 @@ module Helpcentre
       @product_articles = Hash.new
     end
 
-    def store_article_for product, text
-      @product_articles[product] = text
-    end
-
     def product_articles
       @product_articles
     end
 
-    def product_article_for product
-       @product_articles[product]
+    def product_article_text_for product
+      @product_articles.select{|uuid, article| article[:product_name] == product}.each_value.collect{|value| value[:text]}
     end
 
-    def product_article product_name, article
+    def load_article uuid
+      @product_articles.select{|k,v| k == uuid}
+    end
+
+    def store_product_article uuid, product_name, text
       @product_articles ||= Hash.new
-      @product_articles[product_name] = article
+      @product_articles[uuid] = {:text => text, :product_name => product_name}
+    end
+
+    def article_for_product product_name
+      @product_articles.select {|uuid, article| article[:product_name] == product_name}
     end
 
     def browser
@@ -54,7 +58,10 @@ module Helpcentre
     end
 
     def close_browser
-      @browser.close if @browser
+      if @browser
+        @browser.close
+        @browser = nil
+      end
     end
   end
 

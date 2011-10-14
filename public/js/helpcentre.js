@@ -6,11 +6,13 @@ function findProduct(productName){
         items.push('<li id="' + key +'">' + value.text + '</li>');
       });
 
-      $('#articleList ul').replaceWith(
+      $('#articleListContainer ul').replaceWith(
         $('<ul/>', {
           html: items.join('')
         })
       );
+
+      $('#articleListContainer ul').attr("id", "articleList")
     })
 }
 
@@ -31,7 +33,9 @@ function addArticle(){
         if (productName == null){
             productName = $("[name=productName]").val()
         }
-        $.get('/article/store', {productName: productName, text: $("[name=article]").val()});
+        $.get('/article/store', {productName: productName, text: $("[name=article]").val()}, function(data){
+            $('#saveResult').html("Save successful. Unique reference for article is <span id='uniqueId'>"+data+"</span>");
+        });
         $('.error').addClass('hidden');
     }
 }

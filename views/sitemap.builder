@@ -7,7 +7,7 @@ xml.urlset do
         xml.priority "0.8"
     end
 
-    articles.each do |value|
+    urls.each do |value|
         xml.url do
             xml.loc "http://cold-journey-9363.heroku.com/#{value}"
             xml.lastmod "2005-01-01"

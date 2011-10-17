@@ -94,6 +94,10 @@ Helpcentre::Persona.all.each do |persona|
   Then /^#{persona.first_name} should see a unique reference on the screen$/ do
     persona.browser.element(:id, 'uniqueId').text.should_not == ''
   end
+
+  Then /^#{persona.first_name} should see the keywords from the article for product '(.*)' in the keywords tag$/ do |product_name|
+    persona.browser.meta(:name, 'keywords').attribute_value('content').should == product_name
+  end
 end
 
 
@@ -107,9 +111,9 @@ def sitemap_entry_for product_name, uuid = nil
     doc = Nokogiri::XML(response)
 
     if uuid then
-      doc.xpath("//urlset/url/loc/text()= 'http://cold-journey-9363.heroku.com/#{product_name}/#{uuid}'")
+      doc.xpath("//*[local-name()='loc']/text()= 'http://cold-journey-9363.heroku.com/#{product_name}/#{uuid}'")
     else
-      doc.xpath("//urlset/url/loc/text()= 'http://cold-journey-9363.heroku.com/#{product_name}$'")
+      doc.xpath("//*[local-name()='loc']/text()= 'http://cold-journey-9363.heroku.com/#{product_name}'")
     end
 
 end

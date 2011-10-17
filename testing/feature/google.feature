@@ -12,3 +12,9 @@ Feature: The following scenarios should be possible for the benefits of search e
     When Mo creates an article associated with the product 'A'
     And Mo creates an article associated with the product 'B'
     Then Mo should see an entry for each of the articles created in the sitemap
+
+  Scenario: Keywords created with the article should apear in the keywords tag on the page
+    Given Mo is on the Create Article page
+    When Mo creates an article associated with the product 'A'
+    Then Joe should be able to see Mo's article for product 'A' under its unique url
+    And Joe should see the keywords from the article for product 'A' in the keywords tag

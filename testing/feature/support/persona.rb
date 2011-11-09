@@ -83,7 +83,6 @@ module Helpcentre
     eval alias_personas_by_first_name
   end
   puts "This test run was brought to you by #{Persona.first_names}"
-
 end
 
 World(Helpcentre)

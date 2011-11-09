@@ -59,10 +59,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="persona.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="persona.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/feature/support/persona.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="48" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0">
+            <state line="73" column="5" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.42404008">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="support_code.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@helpcentre-poc/gems/cucumber-1.1.0/lib/cucumber/runtime/support_code.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="168" column="0" selection-start="5720" selection-end="5720" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,15 +81,6 @@
         <entry file="file://$PROJECT_DIR$/testing/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="14" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="store.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/store.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.09803922">
               <folding />
             </state>
           </provider>
@@ -107,7 +107,7 @@
       <file leaf-file-name="my_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/feature/step_definitions/my_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="87" selection-start="1729" selection-end="1729" vertical-scroll-proportion="-14.0">
+            <state line="11" column="27" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,6 +166,7 @@
         <option value="$PROJECT_DIR$/views/home.haml" />
         <option value="$PROJECT_DIR$/testing/feature/editor.feature" />
         <option value="$PROJECT_DIR$/views/article.haml" />
+        <option value="$PROJECT_DIR$/lib/store.rb" />
         <option value="$PROJECT_DIR$/public/js/helpcentre.js" />
         <option value="$PROJECT_DIR$/views/create_article.haml" />
         <option value="$PROJECT_DIR$/lib/helpcentre.rb" />
@@ -174,7 +175,6 @@
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/testing/feature/support/persona.rb" />
         <option value="$PROJECT_DIR$/testing/feature/step_definitions/my_steps.rb" />
-        <option value="$PROJECT_DIR$/lib/store.rb" />
       </list>
     </option>
   </component>
@@ -209,7 +209,7 @@
     </navigator>
     <panes>
       <pane id="Favorites" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -420,55 +420,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpcentre-poc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpcentre-poc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpcentre-poc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpcentre-poc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpcentre-poc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpcentre-poc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,8 +440,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -902,9 +856,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977018" sideWeight="0.60491496" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40665436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="25" y="401" width="1869" height="398" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39508507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24799572" sideWeight="0.5926276" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40737242" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="25" y="401" width="1869" height="398" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39508507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -993,6 +947,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/article.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -1018,31 +977,6 @@
         <state line="11" column="45" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@helpcentre-poc/gems/cucumber-1.1.0/lib/cucumber/runtime/support_code.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="0" selection-start="5720" selection-end="5720" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea10/config/plugins/ruby/rubystubs/rubystubs19/string.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="753" column="8" selection-start="26604" selection-end="26604" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/feature/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="48" selection-end="98" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/feature/google.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="53" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/feature/editor.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="2" selection-start="1551" selection-end="1631" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/helpcentre.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="64" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" />
@@ -1053,28 +987,58 @@
         <state line="35" column="90" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/feature/step_definitions/my_steps.rb">
+    <entry file="file://$USER_HOME$/.IntelliJIdea10/config/plugins/ruby/rubystubs/rubystubs19/string.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="87" selection-start="1729" selection-end="1729" vertical-scroll-proportion="-14.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/feature/support/persona.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="48" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0">
+        <state line="753" column="8" selection-start="26604" selection-end="26604" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" />
+        <state line="9" column="14" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/store.rb">
+    <entry file="file://$PROJECT_DIR$/testing/feature/editor.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.09803922">
+        <state line="30" column="2" selection-start="1551" selection-end="1631" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/feature/google.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="53" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@helpcentre-poc/gems/cucumber-1.1.0/lib/cucumber/runtime/support_code.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="0" selection-start="5720" selection-end="5720" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/feature/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="48" selection-end="98" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/feature/step_definitions/my_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/feature/support/persona.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="5" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.42404008">
           <folding />
         </state>
       </provider>
